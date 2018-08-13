@@ -1,6 +1,6 @@
 # vue-form-generator-main [![NPM version](https://img.shields.io/npm/v/vue-form-generator.svg)](https://www.npmjs.com/package/vue-form-generator) ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
 
-A schema-based form generator component for Vue.js.
+A extend schema-based form generator component for Vue.js.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d27be05a35bf459b9292b8172e314a08)](https://www.codacy.com/app/mereg-norbert/vue-form-generator_2?utm_source=github.com&utm_medium=referral&utm_content=vue-generators/vue-form-generator&utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/vue-generators/vue-form-generator.svg?branch=master)](https://travis-ci.org/vue-generators/vue-form-generator)

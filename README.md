@@ -107,7 +107,7 @@ If you want the slim down version, here is the changes:
 </template>
 
 <script>
-import VueFormGenerator from "vue-form-generator";
+import VueFormGenerator from "vue-form-generator-main";
 
 Vue.use(VueFormGenerator);
 

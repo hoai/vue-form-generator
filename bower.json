@@ -1,11 +1,11 @@
 {
-	"name": "vue-form-generator",
+	"name": "vue-form-generator-main",
 	"version": "2.3.0",
-	"homepage": "https://github.com/vue-generators/vue-form-generator/",
+	"homepage": "https://github.com/hoai/vue-form-generator/",
 	"authors": [
 		"Icebob"
 	],
-	"description": "A schema-based form generator component for Vue.js",
+	"description": "A extend schema-based form generator component for Vue.js",
 	"main": [
 		"dist/vfg.js",
 		"dist/vfg.css",

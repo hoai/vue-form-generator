@@ -1,8 +1,8 @@
 {
-	"name": "vue-form-generator",
+	"name": "vue-form-generator-main",
 	"version": "2.3.0",
 	"description": "A schema-based form generator component for Vue.js",
-	"homepage": "https://github.com/vue-generators/vue-form-generator/",
+	"homepage": "https://github.com/hoai/vue-form-generator/",
 	"main": "dist/vfg.js",
 	"scripts": {
 		"prebuild": "npm run test",
@@ -38,7 +38,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/vue-generators/vue-form-generator.git"
+		"url": "https://github.com/hoai/vue-form-generator.git"
 	},
 	"files": [
 		"dist/vfg.js",
@@ -47,7 +47,7 @@
 		"dist/vfg-core.css",
 		"src"
 	],
-	"author": "Icebob",
+	"author": "Hoai",
 	"license": "MIT",
 	"devDependencies": {
 		"@vue/test-utils": "1.0.0-beta.11",

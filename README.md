@@ -1,4 +1,4 @@
-# vue-form-generator [![NPM version](https://img.shields.io/npm/v/vue-form-generator.svg)](https://www.npmjs.com/package/vue-form-generator) ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
+# vue-form-generator-main [![NPM version](https://img.shields.io/npm/v/vue-form-generator.svg)](https://www.npmjs.com/package/vue-form-generator) ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
 
 A schema-based form generator component for Vue.js.
 
@@ -54,13 +54,13 @@ You can install it via [NPM](http://npmjs.org/) or [yarn](https://yarnpkg.com/).
 #### Latest version for Vue 2.x
 
 ```
-$ npm install vue-form-generator
+$ npm install vue-form-generator-main
 ```
 
 #### Legacy version for Vue 1.0.x
 
 ```
-$ npm install vue-form-generator@0.6.1
+$ npm install vue-form-generator-main@0.6.1
 ```
 
 ### Manual
@@ -68,7 +68,7 @@ $ npm install vue-form-generator@0.6.1
 Download zip package and unpack and add the vfg.css and vfg.js file to your project from dist folder.
 
 ```
-https://github.com/vue-generators/vue-form-generator/archive/master.zip
+https://github.com/hoai/vue-form-generator/archive/master.zip
 ```
 
 ### Core vs Full version

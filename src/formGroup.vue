@@ -1,6 +1,6 @@
 <template>
 	<div class="form-group" :class="getFieldRowClasses(field)">
-		<div class="field.labelCol">
+		<div :class="field.labelCol">
 			<label v-if="fieldTypeHasLabel(field)" :for="getFieldID(field)" :class="field.labelClasses">
 				<span v-html="field.label"></span>
 				<span v-if='field.help' class="help">
@@ -9,7 +9,7 @@
 				</span>
 			</label>
 		</div>
-		<div class="field.labelField">
+		<div :class="field.labelField">
 			<div class="field-wrap">
 				<component ref="child" :is="getFieldType(field)" :disabled="fieldDisabled(field)" :model="model" :schema="field" :formOptions="options" @model-updated="onModelUpdated" @validated="onFieldValidated"></component>
 				<div v-if="buttonVisibility(field)" class="buttons">

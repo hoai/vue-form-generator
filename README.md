@@ -86,7 +86,7 @@ If you want the slim down version, here is the changes:
 ```js
 // the "full" way
 <script>
-  import VueFormGenerator from "vue-form-generator";
+  import VueFormGenerator from "vue-form-generator-main";
   import "vue-form-generator/dist/vfg.css";  // optional full css additions
 </script>
 

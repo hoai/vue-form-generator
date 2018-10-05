@@ -15,16 +15,20 @@ export default {
 				// prevent a <form /> from having it's submit event triggered
 				// when we have to validate data first
 				$event.preventDefault();
-				let errors = this.$parent.validate();
+				let isAsync = false;
+				let errors = this.$parent.$parent.validate();
 				let handleErrors = errors => {
-					if (!isEmpty(errors) && isFunction(this.schema.onValidationError)) {
-						this.schema.onValidationError(this.model, this.schema, errors, $event);
+					if ((!isAsync && !errors) || (isAsync && !isEmpty(errors))) {
+						if (isFunction(this.schema.onValidationError)) {
+							this.schema.onValidationError(this.model, this.schema, errors, $event);
+						}
 					} else if (isFunction(this.schema.onSubmit)) {
 						this.schema.onSubmit(this.model, this.schema, $event);
 					}
 				};
 
 				if (errors && isFunction(errors.then)) {
+					isAsync = true;
 					errors.then(handleErrors);
 				} else {
 					handleErrors(errors);

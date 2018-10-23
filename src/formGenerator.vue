@@ -33,7 +33,8 @@ export default {
 					validateAsync: false,
 					validateAfterChanged: false,
 					validationErrorClass: "error",
-					validationSuccessClass: ""
+					validationSuccessClass: "",
+					addRequiredMarkAfterLabel: false
 				};
 			}
 		},

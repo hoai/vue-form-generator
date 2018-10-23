@@ -62,8 +62,8 @@ describe("FieldCheckbox.vue", () => {
 		});
 
 		it("should have 2 classes", () => {
-			expect(wrapper.classes()).to.include("applied-class");
-			expect(wrapper.classes()).to.include("another-class");
+			expect(input.classes()).to.include("applied-class");
+			expect(input.classes()).to.include("another-class");
 		});
 
 		describe("check optional attribute", () => {

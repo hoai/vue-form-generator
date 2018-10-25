@@ -4,9 +4,25 @@ import { slugifyFormID } from "../utils/schema";
 
 function convertValidator(validator) {
 	if (isString(validator)) {
-		if (validators[validator] != null) return validators[validator];
-		else {
-			console.warn(`'${validator}' is not a validator function!`);
+		let validatorFuncName = validator;
+		let validatorParams = [];
+		let splitIndex = validator.indexOf(":");
+
+		if (splitIndex !== -1) {
+			validatorFuncName = validator.slice(0, splitIndex);
+			validatorParams = validator.slice(splitIndex + 1).split(",");
+		}
+
+		if (validators[validatorFuncName] != null) {
+			if (validatorParams.length) {
+				return function (value, field, model, messages) {
+					return validators[validatorFuncName].apply(this, [value, field, model, messages, ...validatorParams]);
+				};
+			} else {
+				return validators[validatorFuncName];
+			}
+		} else {
+			console.warn(`'${validatorFuncName}' is not a validator function!`);
 			return null; // caller need to handle null
 		}
 	}

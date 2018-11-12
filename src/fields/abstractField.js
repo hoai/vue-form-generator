@@ -47,7 +47,8 @@ export default {
 		return {
 			errors: [],
 			debouncedValidateFunc: null,
-			debouncedFormatFunction: null
+			debouncedFormatFunction: null,
+			parent: this.$parent''
 		};
 	},
 
@@ -105,9 +106,9 @@ export default {
 
 				forEach(validators, validator => {
 					if (validateAsync) {
-						results.push(validator(this.value, this.schema, this.model));
+						results.push(validator(this.value, this.schema, this.model, undefined, this.$parent));
 					} else {
-						let result = validator(this.value, this.schema, this.model);
+						let result = validator(this.value, this.schema, this.model, undefined, this.$parent);
 						if (result && isFunction(result.then)) {
 							result.then(err => {
 								if (err) {

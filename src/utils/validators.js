@@ -265,7 +265,7 @@ const validators = {
 Object.keys(validators).forEach(name => {
 	const fn = validators[name];
 	if (isFunction(fn)) {
-		fn.locale = customMessages => (value, field, model) => fn(value, field, model, defaults(customMessages, resources));
+		fn.locale = customMessages => (value, field, model, parent) => fn(value, field, model, defaults(customMessages, resources), parent);
 	}
 });
 

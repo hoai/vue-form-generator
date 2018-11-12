@@ -48,7 +48,7 @@ export default {
 			errors: [],
 			debouncedValidateFunc: null,
 			debouncedFormatFunction: null,
-			parent: this.$parent''
+			parent: this.$parent
 		};
 	},
 

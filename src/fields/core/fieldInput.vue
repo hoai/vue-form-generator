@@ -36,7 +36,9 @@
 		:step="schema.step",
 		:width="schema.width",
 		:files="schema.files"
-		v-attributes="'input'")
+		v-attributes="'input'"
+        v-on="inputListeners"
+        )
 	span.helper(v-if="schema.inputType.toLowerCase() === 'color' || schema.inputType.toLowerCase() === 'range'") {{ value }}
 </template>
 

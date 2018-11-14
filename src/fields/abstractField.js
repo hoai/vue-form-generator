@@ -1,4 +1,4 @@
-import { get as objGet, forEach, isFunction, isString, isArray, debounce } from "lodash";
+import { get as objGet, forEach, isFunction, isString, isArray, debounce, isObject } from "lodash";
 import validators from "../utils/validators";
 import { slugifyFormID } from "../utils/schema";
 
@@ -47,8 +47,7 @@ export default {
 		return {
 			errors: [],
 			debouncedValidateFunc: null,
-			debouncedFormatFunction: null,
-			parent: this.$parent
+			debouncedFormatFunction: null			
 		};
 	},
 
@@ -84,6 +83,24 @@ export default {
 					this.updateModelValue(newValue, oldValue);
 				}
 			}
+		},
+		inputListeners: function () {
+			let self = this;
+			let listeners = objGet(this.schema, "listeners", {} );
+			let bindListeners = {};
+			if( isObject(listeners) ){
+				forEach(listeners, (fn, key) => {
+					if (isFunction(fn)) {
+						bindListeners[key] = fn.bind(self);
+					}
+				});
+			}
+
+
+			return Object.assign({},
+				this.$listeners,
+				bindListeners
+			);
 		}
 	},
 
@@ -240,6 +257,9 @@ export default {
 
 		formatValueToModel(value) {
 			return value;
+		},
+		getParent() {
+			return this.$parent;
 		}
 	}
 };

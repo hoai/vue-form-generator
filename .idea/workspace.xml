@@ -5,7 +5,27 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/abstractField.js" afterPath="$PROJECT_DIR$/src/fields/abstractField.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldCheckbox.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldCheckbox.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldChecklist.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldChecklist.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldInput.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldInput.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldLabel.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldLabel.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldRadios.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldRadios.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldSelect.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldSelect.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldSubmit.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldSubmit.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldTextArea.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldTextArea.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/core/fieldUpload.vue" afterPath="$PROJECT_DIR$/src/fields/core/fieldUpload.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldCleave.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldCleave.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldDateTimePicker.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldDateTimePicker.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldGoogleAddress.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldGoogleAddress.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldImage.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldImage.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldMasked.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldMasked.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldNoUiSlider.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldNoUiSlider.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldPikaday.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldPikaday.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldRangeSlider.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldRangeSlider.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldSelectEx.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldSelectEx.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldSpectrum.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldSpectrum.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldStaticMap.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldStaticMap.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fields/optional/fieldSwitch.vue" afterPath="$PROJECT_DIR$/src/fields/optional/fieldSwitch.vue" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +37,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="abstractField.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fields/abstractField.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,23 +47,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fieldInput.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fields/core/fieldInput.vue">
+      <file leaf-file-name="fieldMasked.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldMasked.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1936">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="44">
+              <caret line="1" column="244" lean-forward="false" selection-start-line="1" selection-start-column="244" selection-end-line="1" selection-end-column="244" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldNoUiSlider.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldNoUiSlider.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#1297#1342#0" expanded="true" />
+                <element signature="e#176#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formGroup.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/formGroup.vue">
+      <file leaf-file-name="fieldPikaday.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldPikaday.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="1" column="218" lean-forward="false" selection-start-line="1" selection-start-column="218" selection-end-line="1" selection-end-column="218" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldRangeSlider.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldRangeSlider.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="1" column="266" lean-forward="false" selection-start-line="1" selection-start-column="266" selection-end-line="1" selection-end-column="266" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldSelectEx.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldSelectEx.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="1" column="185" lean-forward="false" selection-start-line="1" selection-start-column="185" selection-end-line="1" selection-end-column="185" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldSpectrum.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldSpectrum.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="1" column="214" lean-forward="false" selection-start-line="1" selection-start-column="214" selection-end-line="1" selection-end-column="214" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldStaticMap.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldStaticMap.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldVueMultiSelect.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldVueMultiSelect.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-396">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fieldSwitch.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldSwitch.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="175" lean-forward="false" selection-start-line="2" selection-start-column="175" selection-end-line="2" selection-end-column="175" />
               <folding />
             </state>
           </provider>
@@ -72,6 +150,7 @@
       <find>attributesDirective</find>
       <find>convertValidator</find>
       <find>isObject</find>
+      <find>inputListeners</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,9 +160,30 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/utils/validators.js" />
-        <option value="$PROJECT_DIR$/src/fields/core/fieldInput.vue" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/fields/abstractField.js" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldInput.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldCheckbox.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldChecklist.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldLabel.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldRadios.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldSelect.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldSubmit.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldTextArea.vue" />
+        <option value="$PROJECT_DIR$/src/fields/core/fieldUpload.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldCleave.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldDateTimePicker.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldGoogleAddress.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldImage.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldMasked.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldPikaday.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldRangeSlider.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldSelectEx.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldSpectrum.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldSwitch.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldStaticMap.vue" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldNoUiSlider.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/fields/optional/fieldVueMultiSelect.vue" />
       </list>
     </option>
   </component>
@@ -121,8 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,6 +280,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-form-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-form-generator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="optional" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,11 +539,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-forum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="E:/Program Files/NodeJs/node" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -484,6 +606,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -519,24 +647,25 @@
       <updated>1542011242192</updated>
       <workItem from="1542011245559" duration="2976000" />
       <workItem from="1542079678600" duration="16454000" />
+      <workItem from="1542247859079" duration="1368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19430000" />
+    <option name="totallyTimeSpent" value="24723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-78" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114583336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -562,49 +691,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/validators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#93#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formGroup.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="e#1358#1416#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formGenerator.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#676#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/formMixin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,17 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldSubmit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="e#240#285#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,9 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding>
-            <element signature="e#625#655#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-169">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,9 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +818,7 @@
         <state relative-caret-position="-59">
           <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
-            <element signature="e#372#419#0" expanded="true" />
+            <element signature="e#372#419#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="64" column="77" lean-forward="true" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-693">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,17 +876,207 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formGroup.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/formGenerator.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="172" column="42" lean-forward="true" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+        <state relative-caret-position="3740">
+          <caret line="172" column="42" lean-forward="false" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
           <folding>
             <element signature="e#676#752#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/abstractField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="88" column="12" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="e#1292#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldCheckbox.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="229" lean-forward="true" selection-start-line="2" selection-start-column="211" selection-end-line="2" selection-end-column="229" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldChecklist.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" column="230" lean-forward="false" selection-start-line="16" selection-start-column="230" selection-end-line="16" selection-end-column="230" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldLabel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="105" lean-forward="false" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldRadios.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="3" column="251" lean-forward="false" selection-start-line="3" selection-start-column="251" selection-end-line="3" selection-end-column="251" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldSelect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="185" lean-forward="false" selection-start-line="1" selection-start-column="185" selection-end-line="1" selection-end-column="185" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldSubmit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="215" lean-forward="false" selection-start-line="1" selection-start-column="215" selection-end-line="1" selection-end-column="215" />
+          <folding>
+            <element signature="e#258#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldTextArea.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldUpload.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldCleave.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="243" lean-forward="false" selection-start-line="1" selection-start-column="243" selection-end-line="1" selection-end-column="243" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldDateTimePicker.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="248" lean-forward="false" selection-start-line="2" selection-start-column="248" selection-end-line="2" selection-end-column="248" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldGoogleAddress.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="283" lean-forward="false" selection-start-line="1" selection-start-column="283" selection-end-line="1" selection-end-column="283" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldImage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="3" column="164" lean-forward="false" selection-start-line="3" selection-start-column="164" selection-end-line="3" selection-end-column="164" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldMasked.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="244" lean-forward="false" selection-start-line="1" selection-start-column="244" selection-end-line="1" selection-end-column="244" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldPikaday.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="218" lean-forward="false" selection-start-line="1" selection-start-column="218" selection-end-line="1" selection-end-column="218" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldRangeSlider.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="266" lean-forward="false" selection-start-line="1" selection-start-column="266" selection-end-line="1" selection-end-column="266" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldSelectEx.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="185" lean-forward="false" selection-start-line="1" selection-start-column="185" selection-end-line="1" selection-end-column="185" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldSpectrum.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1" column="214" lean-forward="false" selection-start-line="1" selection-start-column="214" selection-end-line="1" selection-end-column="214" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldNoUiSlider.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#176#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldSwitch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="175" lean-forward="false" selection-start-line="2" selection-start-column="175" selection-end-line="2" selection-end-column="175" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldStaticMap.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,31 +1088,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/formGroup.vue">
+    <entry file="file://$PROJECT_DIR$/src/fields/optional/fieldVueMultiSelect.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-396">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fields/core/fieldInput.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1936">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#1297#1342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fields/abstractField.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

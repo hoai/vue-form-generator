@@ -1,5 +1,5 @@
 <template lang="pug">
-	img(:src="mapLink")
+	img(:src="mapLink", v-on="listeners")
 </template>
 
 <script>

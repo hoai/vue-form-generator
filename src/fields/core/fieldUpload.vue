@@ -11,7 +11,7 @@
 		:readonly="schema.readonly",
 		:required="schema.required",
 		:disabled="disabled", 
-		v-attributes="'input'")
+		v-attributes="'input'", v-on="listeners")
 </template>
 
 <script>

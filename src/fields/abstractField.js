@@ -84,7 +84,7 @@ export default {
 				}
 			}
 		},
-		inputListeners: function () {
+		listeners: function () {
 			let self = this;
 			let listeners = objGet(this.schema, "listeners", {} );
 			let bindListeners = {};
@@ -95,8 +95,6 @@ export default {
 					}
 				});
 			}
-
-
 			return Object.assign({},
 				this.$listeners,
 				bindListeners

@@ -13,7 +13,7 @@
 			<div class="field-wrap" :class="{'input-group': buttonVisibility(field)}">
 				<component ref="child" :is="getFieldType(field)" :disabled="fieldDisabled(field)" :model="model" :schema="field" :formOptions="options" @model-updated="onModelUpdated" @validated="onFieldValidated"></component>
 				<div v-if="buttonVisibility(field)" class="buttons input-group-btn">
-					<button v-for="(btn, index) in field.buttons" @click="buttonClickHandler(btn, field, $event)" :class="btn.classes" :key="index" v-text="btn.label"></button>
+					<button type="button" v-for="(btn, index) in field.buttons" @click="buttonClickHandler(btn, field, $event)" :class="btn.classes" :key="index" v-text="btn.label"></button>
 				</div>
 			</div>
 

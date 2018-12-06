@@ -2,7 +2,7 @@
 	<div class="form-group" :class="getFieldRowClasses(field)">
 		<div :class="field.labelCol">
 			<label v-if="fieldTypeHasLabel(field)" :for="getFieldID(field)" :class="field.labelClasses">
-				<span v-html="field.label"></span> <span v-if="options.addRequiredMarkAfterLabel && field.required" class="required-mark">※</span>
+				<span v-html="getLabel"></span> <span v-if="options.addRequiredMarkAfterLabel && field.required" class="required-mark">※</span>
 				<span v-if='field.help' class="help">
 					<i class="icon"></i>
 					<div class="helpText" v-html='field.help'></div>
@@ -49,6 +49,14 @@ export default {
 			default() {
 				return [];
 			}
+		}
+	},
+	computed: {
+		getLabel() {
+			if (isFunction(this.field.label))
+				return this.field.label();
+			else
+				return this.field.label;
 		}
 	},
 	methods: {

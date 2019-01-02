@@ -1,3 +1,10 @@
+## 2.5.0 (2019-01-02)
+
+* Support collapse fields ([add6339](https://github.com/hoai/vue-form-generator/commit/add6339))
+* Support collapse fields (fix eslint) ([80b438f](https://github.com/hoai/vue-form-generator/commit/80b438f))
+
+
+
 ## <small>2.4.3 (2018-12-06)</small>
 
 * #472 - fix `model-updated` event ([003d7a1](https://github.com/hoai/vue-form-generator/commit/003d7a1))

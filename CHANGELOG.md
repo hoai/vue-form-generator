@@ -1,3 +1,9 @@
+## <small>2.5.1 (2019-01-02)</small>
+
+* Support collapse fields (fix selector) ([521eb28](https://github.com/hoai/vue-form-generator/commit/521eb28))
+
+
+
 ## 2.5.0 (2019-01-02)
 
 * Support collapse fields ([add6339](https://github.com/hoai/vue-form-generator/commit/add6339))

@@ -137,8 +137,8 @@ export default {
 			return "#" + this.getElementName(index);
 		},
 		toggleCollapse(e) {
-			let groupName = document.querySelectorAll(e.target).getAttribute("data-target");
-			if (document.querySelectorAll(groupName).classList.contains("in")) {
+			let groupName = e.target.getAttribute("data-target");
+			if (document.querySelector(groupName).classList.contains("in")) {
 				this.collapseClass = "glyphicon-menu-up";
 				//$('[data-target="' + groupName + '"').removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up')
 			} else {

@@ -163,7 +163,7 @@ $errorColor: #f00;
 	}
 
 	&.error {
-		input:not([type="checkbox"]),
+		input:not([type="checkbox"]):not([type="button"]),
 		textarea,
 		select {
 			border: 1px solid $errorColor;

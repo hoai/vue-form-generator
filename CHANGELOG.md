@@ -1,3 +1,9 @@
+## <small>2.5.2 (2020-05-19)</small>
+
+* Fix form error status affect button appearance ([459789c](https://github.com/hoai/vue-form-generator/commit/459789c))
+
+
+
 ## <small>2.5.1 (2019-01-02)</small>
 
 * Support collapse fields (fix selector) ([521eb28](https://github.com/hoai/vue-form-generator/commit/521eb28))
